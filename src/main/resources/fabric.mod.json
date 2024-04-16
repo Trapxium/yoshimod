@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "tutorialmod",
+	"version": "1.0",
+	"name": "tutorial",
+	"description": "don weasel returns for morbius 2 awaaah?",
+	"authors": [
+		"Ur mom"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/tutorialmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.trapxium.tutorial.TutorialMod"
+		],
+		"client": [
+			"com.example.ExampleModClient"
+		]
+	},
+	"mixins": [
+		],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
